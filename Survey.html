@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang="ko"> 
+
+	<head>
+		<meta charset="utf-8">
+		<title>mypage</title>
+		<link href="stylesheets/Survey.css" rel="stylesheet" type="text/css"> 
+
+	</head>
+
+	<body>
+	<div id="wrap">
+		<div id="top">
+			<a href="">로그인</a> |
+			<a href="">회원가입</a>
+		</div>
+		<div id="header">
+			<div id="header_top">
+				<div id="header_left">
+					<img src="images/flower.png" width="100" height="100" alt="flower image">
+				</div>
+				<div id="header_right">
+					<form action="#">
+						<input type="text" name="search" id="search">
+						<input type="submit" value="Search" id="search_button">
+					</form>
+				</div>
+			</div>
+			<div id="navbar">
+				<ul>
+					<li><a href="Profile.html" >Profile</a></li>
+					<li><a href="Timetable.html">Timetable</a></li>
+					<li><a href="Survey.html" class="selected">Survey</a></li>
+					
+				</ul>
+			</div>
+			<div id="line"></div>
+		</div>
+		<div id="content">
+			<div id="main_content">
+				<div class="section_3" id="timetable">
+					<h1> 설문조사 </h1>
+					<ol>
+						
+						<li> 성별을 입력하세요.<br>
+							<input type="radio" name="sex" value="m"/>남
+							<input type="radio" name="sex" value="f"/>녀
+						</li>
+						
+						<li> 거주지를 입력하세요.
+							<input type="text"/>
+							<input type="button" value="우편번호 찾기"/><br>
+							나머지 주소 입력 <input type="text"/>
+						</li>
+						
+						<li> 저를 알게된 경로를 입력하세요.<br>
+							<input type="checkbox" name="place" value="elementaryschool"/>초등학교
+							<input type="checkbox" name="place" value="elementaryschool"/>중학교
+							<input type="checkbox" name="place" value="elementaryschool"/>고등학교
+							<input type="checkbox" name="place" value="elementaryschool"/>대학교<br>
+							<input type="checkbox" name="place" value="elementaryschool"/>기타(또는 추가) <input type="text"/>
+							
+						</li>
+						
+						<li> 저에 대한 태도를 선택해 주세요.<br>
+							<input type="radio" name="attitude" value="yes"/>긍정적
+							<input type="radio" name="attitude" value="no"/>부정적
+
+
+					</ol>
+				</div>
+			</div>
+
+			<div id="sub_content">
+				<div class="section" id="schedule">
+					<h1>최근 행사 및 일정</h1>
+					<div class="list">
+						<ol>
+							<li>
+								<b>10월 1일</b> 추석
+							</li>
+							<li>
+								<b>10월 3일</b> 개천절
+							</li>
+							<li>
+								<b>10월 9일</b> 한글날
+							</li>
+							<li>
+								<b>10월 11일</b> 백마체전 (리엑스 무대)
+	 						</li>
+							<li>
+								<b>10월 14일</b> 1주년♡
+							</li>
+							<li>
+								<b>10월 18일</b> 멀티미디어 시험
+							</li>
+							<li>
+								<b>10월 31일</b> PC하드웨어의 관리 시험
+							</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<p>사이트 소개 | 이용약관 | 개인정보취급방침 | 책임의 한계와 법적</p>
+				<p>	Copyright ⓒ MJUCafe. All rights reserved.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
